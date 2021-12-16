@@ -13,6 +13,7 @@ html {
 main {
     width: 300px;
     margin: 0px auto;
+    font-family: Arial
 }
 
 p {
@@ -26,21 +27,33 @@ a {
 /* Колонки */
 
 .row {
-
+display: flex;
+margin: 0px -20px;
 }
 .col {
-
+flex: auto;
+margin: 20px 20px;
 }
 
 
 /* Потом селекторы по классам */
 
 .text-input {
+width: 90%;
+border-radius: 5px;
+padding: 10px;
+margin-top: 10px;
+border: solid 2px #d2d9d5;
 
 }
 
 .button {
-
+background-color: #554AF0;
+width: 40%;
+border-radius: 5px;
+padding: 10px;
+color: white;
+margin-top: 8px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,7 +61,11 @@ a {
 /* Login*/
 
 .input-login {
-
+width: 100%;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 15px;
+border: solid 2px #d2d9d5;
 
 }
 
@@ -56,19 +73,35 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+background-color: #E1F5EA;
+width: 100%;
+padding: 8px 10px;
+border-radius: 5px;
+margin-bottom: 15px;
 }
 
 .genre-second {
+background-color: pink;
+width: 75%;
+padding: 8px 10px;
+border-radius: 5px;
 
 }
 
 .genre-third {
-
+background-color: #CBEDFF;
+width: 50%;
+padding: 8px 10px;
+border-radius: 5px;
+margin-top: 15px;
 }
 
 .genre-fourth {
-
+background-color: #EBDCF9;
+width: 35%;
+padding: 8px 10px;
+border-radius: 5px;
+margin-top: 15px;
 }
 
 .tag {
@@ -96,5 +129,10 @@ a {
 }
 
 .button-link {
-
+background-color: blue;
+color: white;
+padding: 10px 25px;
+border-radius: 5px;
+text-decoration: none;
+margin-right: 12px;
 }
