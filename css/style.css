@@ -28,11 +28,11 @@ a {
 
 .row {
 display: flex;
-margin: 0px -20px;
+
 }
 .col {
 flex: auto;
-margin: 20px 20px;
+
 }
 
 
@@ -111,20 +111,35 @@ margin-top: 15px;
 /* Страничка популярного */
 
 .cover {
+margin: 20px 20px;
 
 }
 
 /* Страничка подписки  */
 
 .box-green {
-
+background-color: #E1F5EA;
+border-radius: 5px;
+margin-bottom: 30px;
+padding-left: 20px;
+width: 250px;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 .box-purple {
-
+background-color: #EBDCF9;
+border-radius: 5px;
+margin-bottom: 30px;
+padding-left: 20px;
+width: 250px;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 .text-large {
+font-size: 20px;
+font-weight: bold;
 
 }
 
