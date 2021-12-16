@@ -28,11 +28,11 @@ a {
 
 .row {
 display: flex;
-
+margin: 0px -20px;
 }
 .col {
 flex: auto;
-
+margin: 20px 20px;
 }
 
 
@@ -111,7 +111,6 @@ margin-top: 15px;
 /* Страничка популярного */
 
 .cover {
-margin: 20px 20px;
 
 }
 
