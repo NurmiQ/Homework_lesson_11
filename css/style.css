@@ -28,11 +28,12 @@ a {
 
 .row {
 display: flex;
-margin: 0px -20px;
+margin-bottom: 24px;
+
 }
 .col {
 flex: auto;
-margin: 20px 20px;
+
 }
 
 
@@ -111,6 +112,7 @@ margin-top: 15px;
 /* Страничка популярного */
 
 .cover {
+width: 80%;
 
 }
 
@@ -119,21 +121,19 @@ margin-top: 15px;
 .box-green {
 background-color: #E1F5EA;
 border-radius: 5px;
-margin-bottom: 30px;
-padding-left: 20px;
+padding: 12px 16px;
+margin-bottom: 32px;
 width: 250px;
-padding-bottom: 10px;
-padding-top: 10px;
 }
 
 .box-purple {
 background-color: #EBDCF9;
 border-radius: 5px;
-margin-bottom: 30px;
-padding-left: 20px;
+padding: 12px 16px;
+margin-bottom: 32px;
 width: 250px;
-padding-bottom: 10px;
-padding-top: 10px;
+margin-top: 48px;
+
 }
 
 .text-large {
